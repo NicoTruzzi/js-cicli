@@ -1,7 +1,5 @@
 ## Esercizio
 
-- Stampa la tabellina del 5.
-
-
+6. Chiedi all'utente una parola e un numero N. Stampa quella parola N volte.
 
 

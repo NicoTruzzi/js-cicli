@@ -1,11 +1,11 @@
 
 console.log("script caricato");
+let word = prompt("insersci una parola");
+let n = Number(prompt("inserisci un numero"));
+let i = 1;
 
-let i = 0;
-
-while (i < 11) {
-    let n = 5;
-    n = n * i;
-    console.log(n);
+while (i <= n) {
+    console.log(word);
     i++;
+
 }
