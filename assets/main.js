@@ -1,9 +1,11 @@
 
 console.log("script caricato");
 
-const n = prompt("inserisci un numero");
+let i = 0;
 
-for (let i = 0; i <= n; i++) {
-    console.log(i);
-
+while (i < 11) {
+    let n = 5;
+    n = n * i;
+    console.log(n);
+    i++;
 }
