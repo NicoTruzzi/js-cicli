@@ -2,13 +2,13 @@
 console.log("script caricato");
 
 
-let n = Number(prompt("inserisci un numero"));
-let i = 1;
-let somma = 0;
-while (i <= n) {
-    somma = somma + i;
+let n = Math.floor(Math.random() * 11);
+let c = false;
+do {
+    let i = Number(prompt("indovina il numero da 1 a 10"));
 
-    i++;
-
-}
-console.log("la somma è", somma);
+    if (i === n) {
+        console.log("hai indovinato il numero segreto", n);
+        c = true;
+    }
+} while (c === false);

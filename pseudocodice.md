@@ -1,5 +1,5 @@
 ## Esercizio
 
-7. Chiedi un numero N all'utente. Calcola la somma di tutti i numeri da 1 a N e stampa il risultato.
+8. Il computer sceglie un numero segreto (es. 7). Chiedi all'utente di indovinarlo. Continua finché l'utente non indovina il numero corretto.
 
 
