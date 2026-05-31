@@ -1,14 +1,12 @@
 
 console.log("script caricato");
-
-
-let n = Math.floor(Math.random() * 11);
-let c = false;
+let finish = false;
+let somma = 0;
 do {
-    let i = Number(prompt("indovina il numero da 1 a 10"));
-
-    if (i === n) {
-        console.log("hai indovinato il numero segreto", n);
-        c = true;
+    let prezzo = Number(prompt("inserisci un prezzo"));
+    somma = somma + prezzo;
+    if (prezzo === 0) {
+        finish = true;
     }
-} while (c === false);
+} while (finish != true)
+console.log("la somma dei prezzi è", somma);
