@@ -1,17 +1,15 @@
 
 console.log("script caricato");
-let i = 0;
-let somma = 0;
-let media;
-let again = "si";
-while (again != "no") {
-    let voto = Number(prompt("inserisci un voto"));
-    somma = somma + voto;
-    let continua = prompt("vuoi continuare ad inserire voti?");
-    if (continua === "no") {
-        again = "no";
+const pw = "boolean";
+let isCorrect = false;
+
+for (let i = 0; i < 3 && isCorrect === false; i++) {
+    let pwu = prompt("inserisci la password");
+    if (pwu === pw) {
+        console.log("benvenuto");
+        isCorrect = true;
     }
-    i++;
 }
-media = somma / i;
-console.log("la media dei voti è ", media);
+if (isCorrect === false) {
+    console.log("bloccato");
+}

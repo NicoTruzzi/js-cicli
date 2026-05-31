@@ -1,3 +1,3 @@
 ## Esercizio
 
-10. Chiedi all'utente di inserire i suoi voti. Stampa la media.
+11. L'utente ha 3 tentativi per indovinare la password. Stampa "Benvenuto" se riesce nei tentativi consentiti, altrimenti "Bloccato"
