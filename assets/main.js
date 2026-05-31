@@ -1,12 +1,17 @@
 
 console.log("script caricato");
-let finish = false;
+let i = 0;
 let somma = 0;
-do {
-    let prezzo = Number(prompt("inserisci un prezzo"));
-    somma = somma + prezzo;
-    if (prezzo === 0) {
-        finish = true;
+let media;
+let again = "si";
+while (again != "no") {
+    let voto = Number(prompt("inserisci un voto"));
+    somma = somma + voto;
+    let continua = prompt("vuoi continuare ad inserire voti?");
+    if (continua === "no") {
+        again = "no";
     }
-} while (finish != true)
-console.log("la somma dei prezzi è", somma);
+    i++;
+}
+media = somma / i;
+console.log("la media dei voti è ", media);
