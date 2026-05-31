@@ -1,11 +1,14 @@
 
 console.log("script caricato");
-let word = prompt("insersci una parola");
+
+
 let n = Number(prompt("inserisci un numero"));
 let i = 1;
-
+let somma = 0;
 while (i <= n) {
-    console.log(word);
+    somma = somma + i;
+
     i++;
 
 }
+console.log("la somma è", somma);
