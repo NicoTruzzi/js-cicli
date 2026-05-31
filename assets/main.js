@@ -1,8 +1,6 @@
 console.log("script caricato");
 
-let i = 1;
-while (i < 11) {
+for (let i = 1; i < 11; i++) {
     console.log(i);
-    i++;
 
 }
