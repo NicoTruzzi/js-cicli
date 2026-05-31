@@ -2,4 +2,5 @@
 
 ## dispensa
 
-1. Dichiara fuori dal ciclo una variabile soglia con il valore 18. Chiedi all'utente di inserire 4 voti con prompt. Per ogni voto, stampa se è sufficiente o insufficiente confrontandolo con la soglia. Dopo il ciclo, stampa il valore di soglia e verifica che la variabile voto non sia accessibile fuori dal blocco.
+- Esercizio finale
+  - Il computer sceglie un numero segreto: 7. Chiedi all'utente di indovinarlo con prompt. Ogni volta che sbaglia, stampa se il numero inserito è troppo alto o troppo basso. Continua finché l'utente non indovina. Quando indovina, stampa in quanti tentativi ci è riuscito.
