@@ -1,9 +1,9 @@
 
 console.log("script caricato");
 
-const n = Number(prompt("inserisci un numero"));
+const n = prompt("inserisci un numero");
 
-let i = 0;
-while (i <= n) {
+for (let i = 0; i <= n; i++) {
     console.log(i);
-    i++;
+
+}
